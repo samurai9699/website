@@ -1,0 +1,48 @@
+BODY{
+    background-color: #5fffea75; /* light blue background */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Main Website font */
+    font-size: 16px; /* Default website font-size */
+    text-align: center; /*Default Text orientation */
+}
+.container{
+    width: 80%; /* making website to be boxed */
+    background-color: white; /* white website background */
+    margin: 0 auto; /* Aligning the website centre */
+}
+h1.title{
+    text-align: left!important;
+    color: brown;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 10px;
+}h1.title:hover{
+    text-decoration: overline;
+    color: #a52a2a75;
+    transition: ease-in-out .7s;
+}
+/* Navigation Bar */
+.top-menu{
+    background-color: brown; /* Assigning brown color */
+    overflow: hidden; /* Hiding the text overflows */
+}
+
+.top-menu ul li{
+    list-style-type: none; /* Removing the unordered list bullets or markers */
+    float: left; /*Align the list items horizontally */
+    border-right: 2px solid #5fffea; /* Adding the white border */
+    padding: 5px 10px; /* Adding some space: vertical and horizontal */
+}
+.top-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5fffea;
+    font-weight: 800;
+    font-size: 24px;
+}
+.top-menu ul li:hover{
+    background-color: #5fffea;
+}
+.top-menu ul li:hover a{
+    text-decoration: underline;
+    color: brown;
+}
